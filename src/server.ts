@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import { registerC2BUrl, simulateC2BPayment } from './mpesa';
 
 const app = express();
-const port = 3000;
+const port = 5001;
 
 app.use(bodyParser.json());
 
